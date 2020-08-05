@@ -128,7 +128,7 @@ The `<SelectableGroup />` component accepts a few optional props:
 - `tolerance` (Number) The amount of buffer to add around your `<SelectableGroup />` container, in pixels.
 - `className` (String) Class of selectable group element.
 - `selectionModeClass` (String) Class indicating that there is more than 1 selected item. Defaults to 'in-selection-mode'.
-- `selectboxClassName` (String) Class of selectbox element.
+- `selectboxClassName` (String) Class of selectbox element. (default: selectable-selectbox)
 - `component` (String) The component to render. Defaults to `div`.
 - `allowClickWithoutSelected` (Boolean) When disabled items can be selected by click only if there is more than 1 already selected item.
 - `fixedPosition` (Boolean) Whether the `<SelectableGroup />` container is a fixed or absolutely positioned element or the grandchild of one.
@@ -141,3 +141,9 @@ The `<SelectableGroup />` component accepts a few optional props:
 - `allowCtrlClick` (Boolean) Perform select actions even though the `ctrl` key is down when clicking or dragging. Default value is `false`
 - `allowMetaClick` (Boolean) Perform select actions even though the `meta` key is down when clicking or dragging. Default value is `false`
 - `allowShiftClick` (Boolean) Perform select actions even though the `shift` key is down when clicking or dragging. Default value is `false`
+
+## Method
+
+The `SelectableGroup` has methods like below (You can access to these methods by `SelectableGroup`'s ref)
+
+- `clearSelection`: (Function) Clear selectedItems programmatically
