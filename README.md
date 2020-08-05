@@ -6,6 +6,9 @@ Enable a React component (or group of components) to be selectable via mouse/tou
 
 ```sh
 npm i -S @seonghyenkimm/react-selectable-fast
+
+# with yarn
+yarn add @seonghyeonkimm/react-selectable-fast
 ```
 
 [![react-selectable-fast](https://nodei.co/npm/react-selectable-fast.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-selectable-fast/)
