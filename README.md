@@ -11,8 +11,6 @@ npm i -S @seonghyenkimm/react-selectable-fast
 yarn add @seonghyeonkimm/react-selectable-fast
 ```
 
-[![react-selectable-fast](https://nodei.co/npm/react-selectable-fast.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-selectable-fast/)
-
 ## Based on react-selectable-fast
 
 This project is forked from [react-selectable-fast](https://github.com/valerybugakov/react-selectable-fast) by [valerybugakov](https://github.com/valerybugakov). The reason why I forked this package is because I wanted to update package and to keep on manage package.
