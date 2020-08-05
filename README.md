@@ -2,22 +2,17 @@
 
 Enable a React component (or group of components) to be selectable via mouse/touch.
 
-## Demo
-
-https://react-selectable-fast.now.sh
-
 ## Install
 
 ```sh
-npm i -S react-selectable-fast
+npm i -S @seonghyenkimm/react-selectable-fast
 ```
 
 [![react-selectable-fast](https://nodei.co/npm/react-selectable-fast.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-selectable-fast/)
 
-## Based on react-selectable
+## Based on react-selectable-fast
 
-This project is based on [react-selectable](https://github.com/unclecheese/react-selectable) by [unclecheese](https://github.com/unclecheese).
-The main idea of this fork is to eliminate render during selection caused by state updates of SelectableGroup. Only items under selectbox rerender themselves, which great for big lists of selectable items. Also, this package extends the original functionality with ability to scroll items while selecting relative to window and specified scroll container.
+This project is forked from [react-selectable-fast](https://github.com/valerybugakov/react-selectable-fast) by [valerybugakov](https://github.com/valerybugakov). The reason why I forked this package is because I wanted to update package and to keep on manage package.
 
 ## Usage
 
@@ -129,7 +124,7 @@ The `<SelectableGroup />` component accepts a few optional props:
 - `mixedDeselect` (Boolean) When enabled items can be selected and deselected with selectbox at the same time, `enableDeselect` should be set to `true`.
 - `scrollContainer` (String) Selector of scroll container which will be used to calculate selectbox position. If not specified SelectableGroup element will be used as scroll container.
 - `ignoreList` (Array) Array of ignored selectors.
-- `clickableClassName` (String) On elements with specified selector click item containing this element will be selected.
+- `clickClassName` (String) On elements with specified selector click item containing this element will be selected.
 - `tolerance` (Number) The amount of buffer to add around your `<SelectableGroup />` container, in pixels.
 - `className` (String) Class of selectable group element.
 - `selectionModeClass` (String) Class indicating that there is more than 1 selected item. Defaults to 'in-selection-mode'.
